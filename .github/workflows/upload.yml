@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: FTP Upload
-        uses: markMichil/deploy-ftp-action@v4
+        uses: markMichil/misrprop@v4
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
