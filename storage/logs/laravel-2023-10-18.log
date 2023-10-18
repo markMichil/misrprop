@@ -1,0 +1,508 @@
+[2023-10-18 08:31:44] production.ERROR: syntax error, unexpected token "endforeach", expecting "elseif" or "else" or "endif" {"view":{"view":"D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\modules\\Language\\Views\\frontend\\switcher.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1378111607 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#1454</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1378111607\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","row":"<pre class=sf-dump id=sf-dump-513604416 data-indent-pad=\"  \"><span class=sf-dump-note>Modules\\Page\\Models\\Page</span> {<a class=sf-dump-ref>#2430</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"10 characters\">core_pages</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  +<span class=sf-dump-public title=\"Public property\">preventsLazyLoading</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:21</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>6</span>
+    \"<span class=sf-dump-key>slug</span>\" => \"<span class=sf-dump-str title=\"12 characters\">home-page-10</span>\"
+    \"<span class=sf-dump-key>title</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Home Page 10</span>\"
+    \"<span class=sf-dump-key>content</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>short_desc</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>status</span>\" => \"<span class=sf-dump-str title=\"7 characters\">publish</span>\"
+    \"<span class=sf-dump-key>publish_date</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>image_id</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>template_id</span>\" => <span class=sf-dump-num>6</span>
+    \"<span class=sf-dump-key>show_template</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>create_user</span>\" => <span class=sf-dump-num>8</span>
+    \"<span class=sf-dump-key>update_user</span>\" => <span class=sf-dump-num>6</span>
+    \"<span class=sf-dump-key>deleted_at</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>origin_id</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>lang</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2023-10-11 09:54:03</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2023-10-15 12:06:38</span>\"
+    \"<span class=sf-dump-key>header_style</span>\" => \"<span class=sf-dump-str title=\"6 characters\">normal</span>\"
+    \"<span class=sf-dump-key>body_width</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>author_id</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>custom_logo</span>\" => <span class=sf-dump-const>null</span>
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:21</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>6</span>
+    \"<span class=sf-dump-key>slug</span>\" => \"<span class=sf-dump-str title=\"12 characters\">home-page-10</span>\"
+    \"<span class=sf-dump-key>title</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Home Page 10</span>\"
+    \"<span class=sf-dump-key>content</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>short_desc</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>status</span>\" => \"<span class=sf-dump-str title=\"7 characters\">publish</span>\"
+    \"<span class=sf-dump-key>publish_date</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>image_id</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>template_id</span>\" => <span class=sf-dump-num>6</span>
+    \"<span class=sf-dump-key>show_template</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>create_user</span>\" => <span class=sf-dump-num>8</span>
+    \"<span class=sf-dump-key>update_user</span>\" => <span class=sf-dump-num>6</span>
+    \"<span class=sf-dump-key>deleted_at</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>origin_id</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>lang</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2023-10-11 09:54:03</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2023-10-15 12:06:38</span>\"
+    \"<span class=sf-dump-key>header_style</span>\" => \"<span class=sf-dump-str title=\"6 characters\">normal</span>\"
+    \"<span class=sf-dump-key>body_width</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>author_id</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>custom_logo</span>\" => <span class=sf-dump-const>null</span>
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>deleted_at</span>\" => \"<span class=sf-dump-str title=\"8 characters\">datetime</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">attributeCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: \"<span class=sf-dump-str title=\"11 characters\">Y-m-d H:i:s</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>translation</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>template</span>\" => <span class=sf-dump-note title=\"Modules\\Template\\Models\\Template
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Modules\\Template\\Models</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Template</span> {<a class=sf-dump-ref>#2422</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"14 characters\">core_templates</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+      +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+      #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+      +<span class=sf-dump-public title=\"Public property\">preventsLazyLoading</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+      +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+      +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:10</span> [ &#8230;10]
+      #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:10</span> [ &#8230;10]
+      #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">casts</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">attributeCastCache</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: \"<span class=sf-dump-str title=\"11 characters\">Y-m-d H:i:s</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">relations</span>: <span class=sf-dump-note>array:1</span> [ &#8230;1]
+      #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+      +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+      #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: <span class=sf-dump-note>array:3</span> [ &#8230;3]
+      #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [ &#8230;1]
+      #<span class=sf-dump-protected title=\"Protected property\">slugField</span>: \"\"
+      #<span class=sf-dump-protected title=\"Protected property\">slugFromField</span>: \"\"
+      #<span class=sf-dump-protected title=\"Protected property\">cleanFields</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">seo_type</span>: <span class=sf-dump-const>null</span>
+      +<span class=sf-dump-public title=\"Public property\">translationForeignKey</span>: \"<span class=sf-dump-str title=\"9 characters\">origin_id</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">translation_class</span>: \"<span class=sf-dump-str title=\"43 characters\">Modules\\Template\\Models\\TemplateTranslation</span>\"
+    </samp>}
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: <span class=sf-dump-note>array:7</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str title=\"5 characters\">title</span>\"
+    <span class=sf-dump-index>1</span> => \"<span class=sf-dump-str title=\"7 characters\">content</span>\"
+    <span class=sf-dump-index>2</span> => \"<span class=sf-dump-str title=\"6 characters\">status</span>\"
+    <span class=sf-dump-index>3</span> => \"<span class=sf-dump-str title=\"10 characters\">short_desc</span>\"
+    <span class=sf-dump-index>4</span> => \"<span class=sf-dump-str title=\"8 characters\">image_id</span>\"
+    <span class=sf-dump-index>5</span> => \"<span class=sf-dump-str title=\"12 characters\">header_style</span>\"
+    <span class=sf-dump-index>6</span> => \"<span class=sf-dump-str title=\"11 characters\">custom_logo</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">slugField</span>: \"<span class=sf-dump-str title=\"4 characters\">slug</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">slugFromField</span>: \"<span class=sf-dump-str title=\"5 characters\">title</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">cleanFields</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str title=\"7 characters\">content</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">seo_type</span>: \"<span class=sf-dump-str title=\"4 characters\">page</span>\"
+  +<span class=sf-dump-public title=\"Public property\">translationForeignKey</span>: \"<span class=sf-dump-str title=\"9 characters\">origin_id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">translation_class</span>: <span class=sf-dump-const>null</span>
+  +<span class=sf-dump-public title=\"Public property\">translatedAttributes</span>: <span class=sf-dump-note>array:3</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str title=\"5 characters\">title</span>\"
+    <span class=sf-dump-index>1</span> => \"<span class=sf-dump-str title=\"7 characters\">content</span>\"
+    <span class=sf-dump-index>2</span> => \"<span class=sf-dump-str title=\"10 characters\">short_desc</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">sitemap_type</span>: \"<span class=sf-dump-str title=\"4 characters\">page</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">forceDeleting</span>: <span class=sf-dump-const>false</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-513604416\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","seo_meta":"<pre class=sf-dump id=sf-dump-1730058975 data-indent-pad=\"  \"><span class=sf-dump-note>array:6</span> [<samp data-depth=1 class=sf-dump-expanded>
+  \"<span class=sf-dump-key>slug</span>\" => \"<span class=sf-dump-str title=\"12 characters\">home-page-10</span>\"
+  \"<span class=sf-dump-key>full_url</span>\" => \"<span class=sf-dump-str title=\"21 characters\">http://127.0.0.1:8000</span>\"
+  \"<span class=sf-dump-key>service_title</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Home Page 10</span>\"
+  \"<span class=sf-dump-key>service_desc</span>\" => <span class=sf-dump-const>null</span>
+  \"<span class=sf-dump-key>service_image</span>\" => <span class=sf-dump-const>null</span>
+  \"<span class=sf-dump-key>is_homepage</span>\" => <span class=sf-dump-const>true</span>
+</samp>]
+</pre><script>Sfdump(\"sf-dump-1730058975\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","translation":"<pre class=sf-dump id=sf-dump-1960968250 data-indent-pad=\"  \"><span class=sf-dump-note>Modules\\Page\\Models\\PageTranslation</span> {<a class=sf-dump-ref>#2417</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"22 characters\">core_page_translations</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  +<span class=sf-dump-public title=\"Public property\">preventsLazyLoading</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>false</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:4</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>locale</span>\" => \"<span class=sf-dump-str title=\"3 characters\">egy</span>\"
+    \"<span class=sf-dump-key>origin_id</span>\" => <span class=sf-dump-num>6</span>
+    \"<span class=sf-dump-key>title</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Home Page 10</span>\"
+    \"<span class=sf-dump-key>content</span>\" => <span class=sf-dump-const>null</span>
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">attributeCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: \"<span class=sf-dump-str title=\"11 characters\">Y-m-d H:i:s</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str title=\"5 characters\">title</span>\"
+    <span class=sf-dump-index>1</span> => \"<span class=sf-dump-str title=\"7 characters\">content</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">slugField</span>: \"\"
+  #<span class=sf-dump-protected title=\"Protected property\">slugFromField</span>: \"\"
+  #<span class=sf-dump-protected title=\"Protected property\">cleanFields</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str title=\"7 characters\">content</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">seo_type</span>: \"<span class=sf-dump-str title=\"16 characters\">page_translation</span>\"
+  +<span class=sf-dump-public title=\"Public property\">translationForeignKey</span>: \"<span class=sf-dump-str title=\"9 characters\">origin_id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">translation_class</span>: <span class=sf-dump-const>null</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1960968250\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","is_home":"<pre class=sf-dump id=sf-dump-1732990114 data-indent-pad=\"  \"><span class=sf-dump-const>true</span>
+</pre><script>Sfdump(\"sf-dump-1732990114\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","favicon":"<pre class=sf-dump id=sf-dump-378675971 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"3 characters\">339</span>\"
+</pre><script>Sfdump(\"sf-dump-378675971\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","file":"<pre class=sf-dump id=sf-dump-2101682515 data-indent-pad=\"  \"><span class=sf-dump-note>Modules\\Media\\Models\\MediaFile</span> {<a class=sf-dump-ref>#2673</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"11 characters\">media_files</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  +<span class=sf-dump-public title=\"Public property\">preventsLazyLoading</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:19</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>339</span>
+    \"<span class=sf-dump-key>file_name</span>\" => \"<span class=sf-dump-str title=\"13 characters\">logo-blue-1-1</span>\"
+    \"<span class=sf-dump-key>file_path</span>\" => \"<span class=sf-dump-str title=\"35 characters\">0000/8/2023/10/12/logo-blue-1-1.png</span>\"
+    \"<span class=sf-dump-key>file_size</span>\" => \"<span class=sf-dump-str title=\"4 characters\">3323</span>\"
+    \"<span class=sf-dump-key>file_type</span>\" => \"<span class=sf-dump-str title=\"9 characters\">image/png</span>\"
+    \"<span class=sf-dump-key>file_extension</span>\" => \"<span class=sf-dump-str title=\"3 characters\">png</span>\"
+    \"<span class=sf-dump-key>driver</span>\" => \"<span class=sf-dump-str title=\"7 characters\">uploads</span>\"
+    \"<span class=sf-dump-key>create_user</span>\" => <span class=sf-dump-num>8</span>
+    \"<span class=sf-dump-key>update_user</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>deleted_at</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>app_id</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>app_user_id</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>file_width</span>\" => <span class=sf-dump-num>52</span>
+    \"<span class=sf-dump-key>file_height</span>\" => <span class=sf-dump-num>86</span>
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2023-10-12 13:46:33</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2023-10-12 13:46:33</span>\"
+    \"<span class=sf-dump-key>folder_id</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>author_id</span>\" => <span class=sf-dump-num>8</span>
+    \"<span class=sf-dump-key>file_edit</span>\" => <span class=sf-dump-num>0</span>
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:19</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>339</span>
+    \"<span class=sf-dump-key>file_name</span>\" => \"<span class=sf-dump-str title=\"13 characters\">logo-blue-1-1</span>\"
+    \"<span class=sf-dump-key>file_path</span>\" => \"<span class=sf-dump-str title=\"35 characters\">0000/8/2023/10/12/logo-blue-1-1.png</span>\"
+    \"<span class=sf-dump-key>file_size</span>\" => \"<span class=sf-dump-str title=\"4 characters\">3323</span>\"
+    \"<span class=sf-dump-key>file_type</span>\" => \"<span class=sf-dump-str title=\"9 characters\">image/png</span>\"
+    \"<span class=sf-dump-key>file_extension</span>\" => \"<span class=sf-dump-str title=\"3 characters\">png</span>\"
+    \"<span class=sf-dump-key>driver</span>\" => \"<span class=sf-dump-str title=\"7 characters\">uploads</span>\"
+    \"<span class=sf-dump-key>create_user</span>\" => <span class=sf-dump-num>8</span>
+    \"<span class=sf-dump-key>update_user</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>deleted_at</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>app_id</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>app_user_id</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>file_width</span>\" => <span class=sf-dump-num>52</span>
+    \"<span class=sf-dump-key>file_height</span>\" => <span class=sf-dump-num>86</span>
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2023-10-12 13:46:33</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2023-10-12 13:46:33</span>\"
+    \"<span class=sf-dump-key>folder_id</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>author_id</span>\" => <span class=sf-dump-num>8</span>
+    \"<span class=sf-dump-key>file_edit</span>\" => <span class=sf-dump-num>0</span>
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>deleted_at</span>\" => \"<span class=sf-dump-str title=\"8 characters\">datetime</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">attributeCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: \"<span class=sf-dump-str title=\"11 characters\">Y-m-d H:i:s</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">slugField</span>: \"\"
+  #<span class=sf-dump-protected title=\"Protected property\">slugFromField</span>: \"\"
+  #<span class=sf-dump-protected title=\"Protected property\">cleanFields</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">seo_type</span>: <span class=sf-dump-const>null</span>
+  +<span class=sf-dump-public title=\"Public property\">translationForeignKey</span>: \"<span class=sf-dump-str title=\"9 characters\">origin_id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">translation_class</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">forceDeleting</span>: <span class=sf-dump-const>false</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-2101682515\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","logo_id":"<pre class=sf-dump id=sf-dump-41718148 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"3 characters\">338</span>\"
+</pre><script>Sfdump(\"sf-dump-41718148\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","logo":"<pre class=sf-dump id=sf-dump-1514100292 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"63 characters\">http://127.0.0.1:8000/uploads/0000/8/2023/10/11/logo-blue-1.png</span>\"
+</pre><script>Sfdump(\"sf-dump-1514100292\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"userId":6,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): syntax error, unexpected token \"endforeach\", expecting \"elseif\" or \"else\" or \"endif\" at D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\modules\\Language\\Views\\frontend\\switcher.blade.php:26)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#1 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('D:\\\\xampp\\\\htdocs...', Array)
+#2 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('D:\\\\xampp\\\\htdocs...', Array)
+#3 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('D:\\\\xampp\\\\htdocs...', Array)
+#4 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#5 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#6 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\themes\\Findhouse\\Layout\\parts\\header.blade.php(45): Illuminate\\View\\View->render()
+#7 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('D:\\\\xampp\\\\htdocs...')
+#8 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#9 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('D:\\\\xampp\\\\htdocs...', Array)
+#10 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('D:\\\\xampp\\\\htdocs...', Array)
+#11 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('D:\\\\xampp\\\\htdocs...', Array)
+#12 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#13 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#14 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\themes\\Findhouse\\Layout\\app.blade.php(55): Illuminate\\View\\View->render()
+#15 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('D:\\\\xampp\\\\htdocs...')
+#16 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#17 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('D:\\\\xampp\\\\htdocs...', Array)
+#18 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('D:\\\\xampp\\\\htdocs...', Array)
+#19 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('D:\\\\xampp\\\\htdocs...', Array)
+#20 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#21 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#22 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\resources\\views\\layouts\\app.blade.php(1): Illuminate\\View\\View->render()
+#23 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('D:\\\\xampp\\\\htdocs...')
+#24 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#25 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('D:\\\\xampp\\\\htdocs...', Array)
+#26 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('D:\\\\xampp\\\\htdocs...', Array)
+#27 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('D:\\\\xampp\\\\htdocs...', Array)
+#28 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#29 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#30 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\themes\\Findhouse\\Page\\Views\\frontend\\detail.blade.php(15): Illuminate\\View\\View->render()
+#31 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('D:\\\\xampp\\\\htdocs...')
+#32 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#33 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('D:\\\\xampp\\\\htdocs...', Array)
+#34 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('D:\\\\xampp\\\\htdocs...', Array)
+#35 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('D:\\\\xampp\\\\htdocs...', Array)
+#36 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#37 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#38 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#39 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#40 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#41 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#42 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#43 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#44 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\app\\Http\\Middleware\\RequireChangePassword.php(41): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RequireChangePassword->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\app\\Http\\Middleware\\SetLanguageForAdmin.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\SetLanguageForAdmin->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\app\\Http\\Middleware\\SetCurrentCurrency.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\SetCurrentCurrency->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\app\\Http\\Middleware\\HideDebugbar.php(32): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\HideDebugbar->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\app\\Http\\Middleware\\RedirectForMultiLanguage.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RedirectForMultiLanguage->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#54 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#55 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#56 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#57 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#58 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#59 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#60 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#61 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#62 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#63 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#64 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#66 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#67 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#68 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#69 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#70 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#71 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#72 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#73 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#74 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\themes\\Findhouse\\Updater.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#75 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Themes\\Findhouse\\Updater->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#76 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\barryvdh\\laravel-debugbar\\src\\Middleware\\InjectDebugbar.php(59): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#77 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Barryvdh\\Debugbar\\Middleware\\InjectDebugbar->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#78 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#79 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#80 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#81 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#82 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#83 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#84 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#85 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#86 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#87 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#88 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#89 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#90 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\app\\Http\\Middleware\\RedirectToInstaller.php(40): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#91 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RedirectToInstaller->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#92 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#93 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#94 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#95 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#96 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#97 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\public\\index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#98 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\server.php(21): require_once('D:\\\\xampp\\\\htdocs...')
+#99 {main}
+
+[previous exception] [object] (ParseError(code: 0): syntax error, unexpected token \"endforeach\", expecting \"elseif\" or \"else\" or \"endif\" at D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\storage\\framework\\views\\dd760ee7775c913f9c6d714d56baef3bb6d3dfe5.php:28)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#1 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('D:\\\\xampp\\\\htdocs...', Array)
+#2 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('D:\\\\xampp\\\\htdocs...', Array)
+#3 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('D:\\\\xampp\\\\htdocs...', Array)
+#4 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#5 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#6 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\storage\\framework\\views\\088be3b433a45d8e9cd64578bf047fc2191381cf.php(45): Illuminate\\View\\View->render()
+#7 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('D:\\\\xampp\\\\htdocs...')
+#8 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#9 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('D:\\\\xampp\\\\htdocs...', Array)
+#10 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('D:\\\\xampp\\\\htdocs...', Array)
+#11 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('D:\\\\xampp\\\\htdocs...', Array)
+#12 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#13 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#14 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\storage\\framework\\views\\2af06a1de185034f95d7cf54ad7b7046100ed751.php(61): Illuminate\\View\\View->render()
+#15 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('D:\\\\xampp\\\\htdocs...')
+#16 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#17 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('D:\\\\xampp\\\\htdocs...', Array)
+#18 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('D:\\\\xampp\\\\htdocs...', Array)
+#19 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('D:\\\\xampp\\\\htdocs...', Array)
+#20 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#21 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#22 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\storage\\framework\\views\\2d64a8eb5ebef1effcb8e87005d56dd5f2c40aeb.php(1): Illuminate\\View\\View->render()
+#23 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('D:\\\\xampp\\\\htdocs...')
+#24 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#25 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('D:\\\\xampp\\\\htdocs...', Array)
+#26 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('D:\\\\xampp\\\\htdocs...', Array)
+#27 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('D:\\\\xampp\\\\htdocs...', Array)
+#28 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#29 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#30 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\storage\\framework\\views\\bbc06ed61e2daa315ae4025c32299ceea2b5aa2e.php(19): Illuminate\\View\\View->render()
+#31 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('D:\\\\xampp\\\\htdocs...')
+#32 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#33 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('D:\\\\xampp\\\\htdocs...', Array)
+#34 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('D:\\\\xampp\\\\htdocs...', Array)
+#35 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('D:\\\\xampp\\\\htdocs...', Array)
+#36 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#37 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#38 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#39 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#40 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#41 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#42 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#43 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#44 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\app\\Http\\Middleware\\RequireChangePassword.php(41): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RequireChangePassword->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\app\\Http\\Middleware\\SetLanguageForAdmin.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\SetLanguageForAdmin->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\app\\Http\\Middleware\\SetCurrentCurrency.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\SetCurrentCurrency->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\app\\Http\\Middleware\\HideDebugbar.php(32): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\HideDebugbar->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\app\\Http\\Middleware\\RedirectForMultiLanguage.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RedirectForMultiLanguage->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#54 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#55 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#56 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#57 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#58 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#59 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#60 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#61 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#62 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#63 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#64 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#66 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#67 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#68 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#69 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#70 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#71 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#72 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#73 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#74 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\themes\\Findhouse\\Updater.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#75 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Themes\\Findhouse\\Updater->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#76 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\barryvdh\\laravel-debugbar\\src\\Middleware\\InjectDebugbar.php(59): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#77 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Barryvdh\\Debugbar\\Middleware\\InjectDebugbar->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#78 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#79 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#80 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#81 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#82 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#83 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#84 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#85 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#86 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#87 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#88 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#89 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#90 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\app\\Http\\Middleware\\RedirectToInstaller.php(40): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#91 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RedirectToInstaller->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#92 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#93 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#94 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#95 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#96 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#97 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\public\\index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#98 D:\\xampp\\htdocs\\misrea\\findhouse.2.1.0\\findhouse.2.1.0\\server.php(21): require_once('D:\\\\xampp\\\\htdocs...')
+#99 {main}
+"} 
+[2023-10-18 10:04:13] production.DEBUG: The value "" is not a valid IP address.  
