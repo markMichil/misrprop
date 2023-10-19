@@ -1,0 +1,21 @@
+name: FTP Upload
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  upload-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: FTP Upload
+        uses:  shivammathur/setup-php@15c43e89cdef867065b0213be354c2841860869e
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
